@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#__next {
+  height: 100%;
+}
+
+/* Fix Google Maps broken by Tailwind Preflight resets.
+   Preflight sets:
+     - img, video { max-width:100%; height:auto; display:block }
+     - *, ::before, ::after { border-style: solid }
+   These break map tile rendering, positioning, and controls. */
+.gm-style img {
+  max-width: none !important;
+  max-height: none !important;
+  height: unset !important;
+  display: unset !important;
+}
+.gm-style video {
+  max-width: none !important;
+  max-height: none !important;
+}
+.gm-style *,
+.gm-style *::before,
+.gm-style *::after {
+  box-sizing: content-box;
+  border-style: none;
+}
+
+body {
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Arial, sans-serif;
+  background: #f7f7f7;
+  color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #0d4a8a;
+}
+
+/* Status badges used on the dashboard */
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 500;
+  border: 1px solid transparent;
+}
+.status-pill.up {
+  background: #e6f4ea;
+  color: #137333;
+  border-color: #b7d8b9;
+}
+.status-pill.down {
+  background: #fce8e6;
+  color: #b3261e;
+  border-color: #f5b5af;
+}
+.status-pill.unknown {
+  background: #f1f3f4;
+  color: #5f6368;
+  border-color: #dadce0;
+}

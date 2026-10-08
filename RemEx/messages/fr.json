@@ -1,0 +1,364 @@
+{
+ "enforcement": {
+  "captures": {
+   "source": "Source"
+  },
+  "alert": {
+   "toast": {
+    "title": "Alerte moteur",
+    "confidence": "Confiance"
+   },
+   "source": {
+    "engine": "moteur",
+    "manual": "manuel"
+   }
+  }
+ },
+ "welcome": "Bienvenue sur notre site web multilingue !",
+ "hello": "Bonjour, {{name}} !",
+ "logout": "Se dÃ©connecte",
+ "loginError": "Nom d'utilisateur ou mot de passe invalide. Veuillez rÃ©essayer.",
+ "loading": "Chargement",
+ "error": "Erreur",
+ "userProfile": {
+  "role": "RÃ´le",
+  "user": "Utilisateur",
+  "createdAt": "CrÃ©Ã© le",
+  "lastSignIn": "DerniÃ¨re connexion",
+  "currentPassword": "Mot de Passe Actuel",
+  "changePassword": "Changer le Mot de Passe",
+  "newPassword": "Nouveau Mot de Passe",
+  "confirmPassword": "Confirmer le Mot de Passe",
+  "confirm": "Confirmer",
+  "cancel": "Annuler",
+  "success": "Mot de passe mis Ã  jour avec succÃ¨s !",
+  "errors": {
+   "empty": "Les champs de mot de passe ne peuvent pas Ãªtre vides",
+   "mismatch": "Les mots de passe ne correspondent pas",
+   "length": "Le mot de passe doit contenir au moins 8 caractÃ¨res",
+   "failed": "Ã‰chec de la mise Ã  jour du mot de passe. Veuillez rÃ©essayer.",
+   "minLength": "Doit contenir au moins 8 caractÃ¨res",
+   "uppercase": "NÃ©cessite au moins une lettre majuscule",
+   "number": "NÃ©cessite au moins un chiffre",
+   "specialChar": "Ajoutez un symbole spÃ©cial",
+   "tooShort": "Trop court",
+   "weak": "Faible",
+   "moderate": "Moyen",
+   "strong": "Fort"
+  }
+ },
+ "login": {
+  "welcome": "Bienvenue!",
+  "subtitle": "Veuillez vous connecter Ã  {{appName}}",
+  "username": "Nom d'utilisateur",
+  "password": "Mot de passe",
+  "loginButton": "Se connecter",
+  "sessionExpired": "Votre session a expirÃ©. Veuillez vous reconnecter."
+ },
+ "maps": {
+  "maps": "Cartes",
+  "zones": "Zones",
+  "description": "Description",
+  "coordinates": "CoordonnÃ©es",
+  "zoomLevel": "Niveau de zoom",
+  "customerId": "ID client",
+  "locationId": "ID localisation",
+  "lastUpdated": "DerniÃ¨re mise Ã  jour",
+  "editMap": "Modifier la carte",
+  "addMap": "Ajouter une carte",
+  "deleteMap": "Supprimer la carte",
+  "deleteMapConfirmation": "ÃŠtes-vous sÃ»r de vouloir supprimer cette carte ?",
+  "name": "Nom",
+  "latitude": "Latitude",
+  "longitude": "Longitude",
+  "search": "Rechercher ville, code postal...",
+  "associations": "Associations"
+ },
+ "map": {
+  "map": "Carte",
+  "showMap": "Afficher la carte",
+  "satellite": "Satellite",
+  "showSatellite": "Afficher le satellite",
+  "search": "Rechercher ville, code postal..."
+ },
+ "mapInfo": {
+  "error": {
+   "title": "Impossible de charger les informations de la carte",
+   "message": "Une erreur s'est produite lors du chargement des dÃ©tails de la carte. Veuillez rÃ©essayer.",
+   "retryButton": "RÃ©essayer"
+  }
+ },
+ "search": {
+  "search": "Rechercher",
+  "showing": "Affichage de",
+  "of": "sur",
+  "previous": "PrÃ©cÃ©dent",
+  "next": "Suivant",
+  "noResults": "Aucun rÃ©sultat",
+  "clearSearch": "Effacer la recherche",
+  "suggestionsUnavailable": "Suggestions indisponibles. Appuyez sur EntrÃ©e pour lancer la recherche.",
+  "hint": "Appuyez sur EntrÃ©e pour lancer la recherche."
+ },
+ "common": {
+  "add": "Ajouter",
+  "create": "CrÃ©er",
+  "creating": "CrÃ©ation en cours...",
+  "edit": "Modifier",
+  "delete": "Supprimer",
+  "save": "Enregistrer",
+  "saving": "Enregistrement...",
+  "cancel": "Annuler",
+  "below": "En dessous",
+  "beside": "Ã€ cÃ´tÃ©",
+  "refresh": "Actualiser",
+  "select": "SÃ©lectionner",
+  "selecting": "SÃ©lectionâ€¦",
+  "deleting": "Suppressionâ€¦",
+  "noRows": "Aucune ligne. Cliquez sur + Nouveau pour en ajouter une.",
+  "noRowsFilter": "Aucune ligne ne correspond au filtre.",
+  "rows": "lignes",
+  "row": "ligne"
+ },
+ "zones": {
+  "key": "ClÃ© de zone",
+  "colour": "Couleur",
+  "lock": "Ã‰tat de verrouillage",
+  "camera": "Position de la camÃ©ra",
+  "description": "Description",
+  "pcnProvider": "Fournisseur PCN",
+  "direction": "Direction",
+  "icesLocCode": "Code d'emplacement",
+  "offCode": "Code d'infraction",
+  "permitZoneId": "ID de zone de permis",
+  "schedName": "Nom du programme",
+  "type": "Type de zone",
+  "editMapZone": "Modifier la zone",
+  "addMapZone": "Ajouter une zone",
+  "addMapZoneError": "Une erreur s'est produite lors de l'ajout de la zone de la carte. Veuillez rÃ©essayer.",
+  "deleteMapZone": "Supprimer la zone",
+  "deleteMapZoneConfirmation": "ÃŠtes-vous sÃ»r de vouloir supprimer cette zone ?",
+  "name": "Nom"
+ },
+ "zoneInfo": {
+  "error": {
+   "title": "Impossible de charger les informations de la zone",
+   "message": "Une erreur s'est produite lors du chargement des dÃ©tails de la zone. Veuillez rÃ©essayer.",
+   "retryButton": "RÃ©essayer"
+  }
+ },
+ "draw": {
+  "fullscreen": "Plein Ã©cran",
+  "exitFullscreen": "Quitter le plein Ã©cran",
+  "drawPolygon": "Tracer",
+  "editPolygon": "Modifier",
+  "clear": "Effacer",
+  "redraw": "Redessiner"
+ },
+ "about": {
+  "about": "Ã€ propos",
+  "version": "Version"
+ },
+ "schedules": {
+  "schedules": "Horaires",
+  "name": "Nom de l'horaire",
+  "dayOfWeek": "Jour de la semaine",
+  "startTime": "Heure de dÃ©but",
+  "stopTime": "Heure de fin",
+  "secondStartTime": "DeuxiÃ¨me heure de dÃ©but",
+  "secondStopTime": "DeuxiÃ¨me heure de fin",
+  "editSchedule": "Modifier l'horaire",
+  "addSchedule": "Ajouter un horaire",
+  "deleteSchedule": "Supprimer l'horaire",
+  "deleteScheduleConfirmation": "ÃŠtes-vous sÃ»r de vouloir supprimer cet horaire ?",
+  "addScheduleError": "Une erreur s'est produite lors de l'ajout du planning. Veuillez rÃ©essayer.",
+  "editScheduleError": "Une erreur s'est produite lors de la modification du planning. Veuillez rÃ©essayer.",
+  "schedule": "Horaire",
+  "additionalSchedule": "Horaire supplÃ©mentaire"
+ },
+ "settings": {
+  "settings": "ParamÃ¨tres",
+  "pagination": "Pagination",
+  "buttons": {
+   "primaryLocation": "Emplacement du bouton principal",
+   "left": "Gauche",
+   "right": "Droite"
+  },
+  "undo": "Annuler",
+  "reset": "RÃ©initialiser",
+  "defaultMapLocation": "Emplacement par dÃ©faut de la nouvelle carte"
+ },
+ "logs": {
+  "title": "Visionneuse de journaux",
+  "searchLabel": "Rechercher",
+  "searchPlaceholder": "Filtrer par n'importe quel texte",
+  "groupBy": "Regrouper par",
+  "group": {
+   "none": "Aucun",
+   "message": "Message",
+   "context": "Contexte",
+   "level": "Niveau",
+   "date": "Date"
+  },
+  "showDetails": "Afficher les dÃ©tails",
+  "consoleParser": "Analyseur de console",
+  "clearInput": "Effacer la saisie",
+  "clear": "Effacer",
+  "clearLevels": "Effacer les niveaux",
+  "showingRange": "Affichage de {{from}}-{{to}} sur {{total}} entrÃ©es",
+  "items": "Ã©lÃ©ment(s)",
+  "prev": "PrÃ©cÃ©dent",
+  "pageOf": "Page {{page}} sur {{total}}",
+  "next": "Suivant",
+  "pasteHint": "Collez votre journal ici, ou tÃ©lÃ©versez un fichier via le sÃ©lecteur ci-dessus.",
+  "chooseFile": "Choisir un fichier",
+  "noFileSelected": "Aucun fichier sÃ©lectionnÃ©",
+  "levels": {
+   "error": "erreur",
+   "warn": "avertissement",
+   "info": "info",
+   "debug": "dÃ©bogage",
+   "verbose": "verbeux",
+   "silly": "silly"
+  }
+ },
+ "validation": {
+  "required": "est requis",
+  "tooLong": "est trop long",
+  "tooShort": "est trop court",
+  "mustBe": "doit Ãªtre",
+  "mustBeUnique": "doit Ãªtre unique",
+  "invalid": "est invalide",
+  "mustBeFuture": "doit Ãªtre dans le futur"
+ },
+ "users": {
+  "users": "Utilisateurs",
+  "username": "Nom d'utilisateur",
+  "email": "E-mail",
+  "role": "RÃ´le",
+  "editUser": "Modifier l'utilisateur",
+  "addUser": "Ajouter un utilisateur",
+  "deleteUser": "Supprimer l'utilisateur",
+  "deleteUserConfirmation": "ÃŠtes-vous sÃ»r de vouloir supprimer cet utilisateur ?",
+  "password": "Mot de passe",
+  "expiryDate": "Date d'expiration"
+ },
+ "nav": {
+  "home": "Accueil",
+  "configuration": "Configuration",
+  "operations": "OpÃ©rations",
+  "enforcement": "Application",
+  "alertsManagement": "Gestion des Alertes",
+  "reports": "Rapports",
+  "administration": "Administration",
+  "dashboard": "Tableau de bord",
+  "workspace": "Espace de travail",
+  "signIn": "Se connecter",
+  "signOut": "Se dÃ©connecter",
+  "notSignedIn": "Non connectÃ©",
+  "signedInAs": "ConnectÃ© en tant que",
+  "openMyInfo": "Ouvrir mes informations",
+  "myInfo": "Mes informations",
+  "alertExcludes": "Exclusions d'alertes",
+  "references": "RÃ©fÃ©rences",
+  "offenceCodes": "Codes d'infraction",
+  "trafficCodes": "Codes de trafic",
+  "exemptionCodes": "Codes d'exemption",
+  "autoDvlas": "DVLAs automatiques",
+  "schedules": "Horaires",
+  "vrms": "VRMs",
+  "exportVrms": "Exporter VRMs",
+  "importVrms": "Importer VRMs",
+  "nodes": "Noeuds",
+  "remoteActions": "Actions Ã  distance",
+  "attendedEnforcement": "Avec agent",
+  "mobileEnforcement": "Mobile",
+  "discardReasons": "Raisons de rejet",
+  "whitelist": "Listes blanches",
+  "auditLog": "Journaux d'audit",
+  "appLogs": "Journaux d'application",
+  "serviceLogs": "Journaux de service",
+  "alertStats": "Alertes",
+  "users": "Utilisateurs",
+  "health": "SantÃ©",
+  "vprManager": "Gestionnaire VPR",
+  "vrecManager": "Gestionnaire VREC",
+  "managers": "Gestionnaires",
+  "permitCheckers": "VÃ©rificateurs de Permis",
+  "workflow": "Flux de travail",
+  "vrecLocks": "Verrous VREC",
+  "vrmTracking": "Suivi VRM",
+  "services": "Services"
+ },
+ "health": {
+  "title": "AperÃ§u de santÃ©",
+  "description": "Appelle /probe/live et /probe/ready sur chaque microservice.",
+  "refresh": "Actualiser",
+  "probing": "VÃ©rificationâ€¦",
+  "restartAll": "RedÃ©marrer tout",
+  "restartingAll": "RedÃ©marrage de toutâ€¦",
+  "service": "Service",
+  "code": "Code",
+  "port": "Port",
+  "live": "En direct",
+  "ready": "PrÃªt",
+  "latency": "Latence",
+  "actions": "Actions",
+  "restart": "RedÃ©marrer",
+  "restarting": "RedÃ©marrageâ€¦",
+  "restarted": "RedÃ©marrÃ© âœ“",
+  "failed": "Ã‰chouÃ© âœ—"
+ },
+ "nodes": {
+  "title": "Noeuds",
+  "loading": "Chargement des noeudsâ€¦",
+  "newNode": "+ Nouveau noeud",
+  "search": "Rechercher des noeudsâ€¦",
+  "noNodes": "Aucun noeud trouvÃ©.",
+  "noMatch": "Aucun noeud ne correspond Ã  votre recherche.",
+  "checkingStatus": "VÃ©rification du statutâ€¦",
+  "remoteActions": "Actions Ã  distance â†’",
+  "permanent": "Perm",
+  "temp": "Temp",
+  "version": "Version",
+  "alerts": "Alertes"
+ },
+ "remoteActions": {
+  "title": "Actions Ã  distance",
+  "scheduledTasks": "Tâches planifiées",
+  "envVariables": "Variables d'environnement",
+  "backToNodes": "â† Retour aux noeuds",
+  "nodeIpPreassigned": "IP du noeud prÃ©-assignÃ©e",
+  "systemInfo": "Informations systÃ¨me",
+  "installedApps": "Applications installÃ©es",
+  "fileManager": "Gestionnaire de fichiers",
+  "services": "Services",
+  "loading": "Chargementâ€¦",
+  "refresh": "Actualiser",
+  "noApps": "Aucune application trouvÃ©e.",
+  "noMatch": "Aucune application ne correspond Ã  votre recherche.",
+  "uninstall": "DÃ©sinstaller",
+  "uninstalling": "DÃ©sinstallationâ€¦",
+  "confirmUninstall": "Confirmer la dÃ©sinstallation",
+  "cannotUndo": "Cette action ne peut pas Ãªtre annulÃ©e."
+ },
+ "dashboard": {
+  "title": "RemEx",
+  "subtitle": "Remote Explorer (RemEx) vous permet de gérer vos serveurs distants (sous Windows) depuis un seul endroit. Utilisez le ruban ci-dessus pour naviguer, ou sélectionnez une section ci-dessous pour commencer.",
+  "comingSoon": "BientÃ´t disponible",
+  "tabs": {
+   "operations": {
+    "label": "Opérations",
+    "description": "Surveillez et gérez les serveurs distants — opérations sur les fichiers/dossiers, tâches planifiées, journaux de service et informations système."
+   },
+   "administration": {
+    "label": "Administration",
+    "description": "Surveillez l'état du service de gestion de serveur distant."
+   }
+  },
+  "services": {
+   "remoteActions": "Actions distantes",
+   "serviceLogs": "Journaux de service",
+   "healthOverview": "Aperçu de l'état"
+  }
+ }
+}

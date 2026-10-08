@@ -1,0 +1,62 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: RemEx/package-lock.json
+
+      - name: Install dependencies
+        working-directory: RemEx
+        run: npm ci
+
+      - name: Build static site
+        working-directory: RemEx
+        env:
+          GITHUB_PAGES: "true"
+          NEXT_PUBLIC_GITHUB_PAGES: "true"
+        run: npm run build
+
+      - name: Prepare artifact
+        run: |
+          mkdir -p _site
+          cp -r RemEx/out/* _site/
+          touch _site/.nojekyll
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

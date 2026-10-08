@@ -1,0 +1,364 @@
+{
+ "enforcement": {
+  "captures": {
+   "source": "Tobar"
+  },
+  "alert": {
+   "toast": {
+    "title": "Rabhadh einnsein",
+    "confidence": "Misneachd"
+   },
+   "source": {
+    "engine": "einnsean",
+    "manual": "le laimh"
+   }
+  }
+ },
+ "welcome": "Failte gu ar larach-lin ioma-chananach!",
+ "hello": "Halo, {{name}}!",
+ "logout": "Claraich a-mach",
+ "loginError": "Ainm-cleachdaiche no facal-faire mi-dhligheach. Feuch a-rithist.",
+ "loading": "A' luchdachadh",
+ "error": "Mearachd",
+ "userProfile": {
+  "role": "Dreuchd",
+  "user": "Cleachdaiche",
+  "createdAt": "Air a Chruthachadh",
+  "lastSignIn": "Clarachadh a-steach mu dheireadh",
+  "currentPassword": "Facal-faire laithreach",
+  "changePassword": "Atharraich facal-faire",
+  "newPassword": "Facal-faire ur",
+  "confirmPassword": "Dearbhaich facal-faire",
+  "confirm": "Dearbhaich",
+  "cancel": "Cuir dheth",
+  "success": "Chaidh am facal-faire urachadh gu soirbheachail!",
+  "errors": {
+   "empty": "Chan urrainn raointean facal-faire a bhith falamh",
+   "mismatch": "Chan eil na facail-faire a' maidseadh",
+   "length": "Feumaidh am facal-faire co-dhiu 8 carachtar a bhith ann",
+   "failed": "Dh'fhaillig urachadh an fhacail-faire. Feuch a-rithist.",
+   "minLength": "Feumaidh co-dhiu 8 carachtar a bhith ann",
+   "uppercase": "Feumar co-dhiu aon litir mhor",
+   "number": "Feumar co-dhiu aon aireamh",
+   "specialChar": "Cuir samhla sonraichte ris",
+   "tooShort": "Ro ghoirid",
+   "weak": "Lag",
+   "moderate": "Meadhanach",
+   "strong": "Laidir"
+  }
+ },
+ "login": {
+  "welcome": "Failte",
+  "subtitle": "Claraich a-steach do {{appName}}",
+  "username": "Ainm-cleachdaiche",
+  "password": "Facal-faire",
+  "loginButton": "Claraich A-steach",
+  "sessionExpired": "Tha an seisean agad air a dhol a feum. Claraich a-steach a-rithist."
+ },
+ "maps": {
+  "maps": "Mapaichean",
+  "zones": "Sonaichean",
+  "description": "Tuairisgeul",
+  "coordinates": "Comharran-aite",
+  "zoomLevel": "Ire Sumaidh",
+  "customerId": "ID Neach-ceannach",
+  "locationId": "ID Aite",
+  "lastUpdated": "Air Urachadh mu Dheireadh",
+  "editMap": "Deasaich Mapa",
+  "addMap": "Cuir Mapa Ris",
+  "deleteMap": "Sguab as Mapa",
+  "deleteMapConfirmation": "A bheil thu cinnteach gu bheil thu airson am mapa seo a sguabadh as?",
+  "name": "Ainm",
+  "latitude": "Domhan-leud",
+  "longitude": "Domhan-fhad",
+  "search": "Lorg baile, cathair, cod puist...",
+  "associations": "Co-cheanglaichean"
+ },
+ "map": {
+  "map": "Mapa",
+  "showMap": "Seall Mapa",
+  "satellite": "Saideil",
+  "showSatellite": "Seall Saideil",
+  "search": "Lorg baile, cathair, cod puist..."
+ },
+ "mapInfo": {
+  "error": {
+   "title": "Cha ghabh fiosrachadh a' mhapa a luchdachadh",
+   "message": "Thachair mearachd fhad 's a bha mion-fhiosrachadh a' mhapa ga luchdachadh. Feuch a-rithist.",
+   "retryButton": "Feuch a-rithist"
+  }
+ },
+ "search": {
+  "search": "Lorg",
+  "showing": "A' sealltainn",
+  "of": "a",
+  "previous": "Roimhe",
+  "next": "Air Adhart",
+  "noResults": "Gun toraidhean",
+  "clearSearch": "Glan lorg",
+  "suggestionsUnavailable": "Chan eil molaidhean ri fhaotainn. Bruth Enter airson lorg.",
+  "hint": "Bruth Enter airson lorg."
+ },
+ "common": {
+  "add": "Cuir Ris",
+  "create": "Cruthaich",
+  "creating": "A' cruthachadh...",
+  "edit": "Deasaich",
+  "delete": "Sguab as",
+  "save": "Sabhail",
+  "saving": "A' sabhaladh...",
+  "cancel": "Cuir dheth",
+  "below": "Fodha",
+  "beside": "Ri Taobh",
+  "refresh": "Uraich",
+  "select": "Tagh",
+  "selecting": "A' taghadhâ€¦",
+  "deleting": "A' sguabadh asâ€¦",
+  "noRows": "Gun sreathan fhathast. Cliog air + Ur gus fear a chur ris.",
+  "noRowsFilter": "Chan eil sreathan sam bith a' freagairt an t-siolaidh.",
+  "rows": "sreathan",
+  "row": "sreath"
+ },
+ "zones": {
+  "key": "Iuchair Sona",
+  "colour": "Dath",
+  "lock": "Inbhe Glasaidh",
+  "camera": "Suidheachadh Camara",
+  "description": "Tuairisgeul",
+  "pcnProvider": "Solaraiche PCN",
+  "direction": "Taobh",
+  "icesLocCode": "Cod Aite",
+  "offCode": "Cod Eucoir",
+  "permitZoneId": "ID Sona Ceada",
+  "schedName": "Ainm Clar-ama",
+  "type": "Seorsa Sona",
+  "editMapZone": "Deasaich Sona Mapa",
+  "addMapZone": "Cuir Sona Mapa Ris",
+  "addMapZoneError": "Thachair mearachd fhad 's a bha sona mapa ga chur ris. Feuch a-rithist.",
+  "deleteMapZone": "Sguab as Sona Mapa",
+  "deleteMapZoneConfirmation": "A bheil thu cinnteach gu bheil thu airson an sona mapa seo a sguabadh as?",
+  "name": "Ainm"
+ },
+ "zoneInfo": {
+  "error": {
+   "title": "Cha ghabh fiosrachadh sona mapa a luchdachadh",
+   "message": "Thachair mearachd fhad 's a bha mion-fhiosrachadh sona mapa ga luchdachadh. Feuch a-rithist.",
+   "retryButton": "Feuch a-rithist"
+  }
+ },
+ "draw": {
+  "fullscreen": "Lan-sgrin",
+  "exitFullscreen": "Fag lan-sgrin",
+  "drawPolygon": "Tarraing",
+  "editPolygon": "Deasaich",
+  "clear": "Glan",
+  "redraw": "Ath-tharraing"
+ },
+ "about": {
+  "about": "Mu Dheidhinn",
+  "version": "Tionndadh"
+ },
+ "schedules": {
+  "schedules": "Claran-ama",
+  "name": "Ainm Clar-ama",
+  "dayOfWeek": "Latha den t-Seachdain",
+  "startTime": "Am Toiseachaidh",
+  "stopTime": "Am Criochnachaidh",
+  "secondStartTime": "Darna Am Toiseachaidh",
+  "secondStopTime": "Darna Am Criochnachaidh",
+  "editSchedule": "Deasaich Clar-ama",
+  "addSchedule": "Cuir Clar-ama Ris",
+  "deleteSchedule": "Sguab as Clar-ama",
+  "deleteScheduleConfirmation": "A bheil thu cinnteach gu bheil thu airson an clar-ama seo a sguabadh as?",
+  "addScheduleError": "Thachair mearachd fhad 's a bha clar-ama ga chur ris. Feuch a-rithist.",
+  "editScheduleError": "Thachair mearachd fhad 's a bha clar-ama ga dheasachadh. Feuch a-rithist.",
+  "schedule": "Clar-ama",
+  "additionalSchedule": "Clar-ama a Bharrachd"
+ },
+ "settings": {
+  "settings": "Roghainnean",
+  "pagination": "Duilleachadh",
+  "buttons": {
+   "primaryLocation": "Aite a' phriomh-phutan",
+   "left": "Cli",
+   "right": "Deas"
+  },
+  "undo": "Neo-dhean",
+  "reset": "Ath-shuidhich",
+  "defaultMapLocation": "Aite bunaiteach mapa ur"
+ },
+ "logs": {
+  "title": "Amharcair Claran",
+  "searchLabel": "Lorg",
+  "searchPlaceholder": "Siolaidh le teacsa sam bith",
+  "groupBy": "Buidhnicich le",
+  "group": {
+   "none": "Chan Eil",
+   "message": "Teachdaireachd",
+   "context": "Co-theacsa",
+   "level": "Ire",
+   "date": "Ceann-latha"
+  },
+  "showDetails": "Seall mion-fhiosrachadh",
+  "consoleParser": "Parsair consol",
+  "clearInput": "Glan ionnsachadh",
+  "clear": "Glan",
+  "clearLevels": "Glan irean",
+  "showingRange": "A' sealltainn {{from}}-{{to}} a {{total}} clar",
+  "items": "ni(thean)",
+  "prev": "Roimhe",
+  "pageOf": "Duilleag {{page}} a {{total}}",
+  "next": "Air Adhart",
+  "pasteHint": "Cuir do theacsa claran an seo, no luchdaich suas faidhle a' cleachdadh an roghnaire gu h-ard.",
+  "chooseFile": "Tagh do fhaidhle",
+  "noFileSelected": "Gun fhaidhle taghte",
+  "levels": {
+   "error": "mearachd",
+   "warn": "rabhadh",
+   "info": "fiosrachadh",
+   "debug": "deasbaid",
+   "verbose": "mionaideach",
+   "silly": "silly"
+  }
+ },
+ "validation": {
+  "required": "riatanach",
+  "tooLong": "ro fhada",
+  "tooShort": "ro ghoirid",
+  "mustBe": "feumaidh e a bhith",
+  "mustBeUnique": "feumaidh e a bhith gun samhail",
+  "invalid": "mi-dhligheach",
+  "mustBeFuture": "feumaidh e a bhith san am ri teachd"
+ },
+ "users": {
+  "users": "Cleachdaichean",
+  "username": "Ainm-cleachdaiche",
+  "email": "Post-dealain",
+  "role": "Dreuchd",
+  "editUser": "Deasaich Cleachdaiche",
+  "addUser": "Cuir Cleachdaiche Ris",
+  "deleteUser": "Sguab as Cleachdaiche",
+  "deleteUserConfirmation": "A bheil thu cinnteach gu bheil thu airson an cleachdaiche seo a sguabadh as?",
+  "password": "Facal-faire",
+  "expiryDate": "Ceann-latha Criochnachaidh"
+ },
+ "nav": {
+  "home": "Dachaigh",
+  "configuration": "Reiteachadh",
+  "operations": "Gniomhachd",
+  "enforcement": "Gniomhachadh",
+  "alertsManagement": "Riaghladh Rabhaidhean",
+  "reports": "Aithisgean",
+  "administration": "Rianachd",
+  "dashboard": "Deasg",
+  "workspace": "Aite-obrach",
+  "signIn": "Claraich A-steach",
+  "signOut": "Claraich a-mach",
+  "notSignedIn": "Gun claradh a-steach",
+  "signedInAs": "Air claradh a-steach mar",
+  "openMyInfo": "Fosgail Mo Fhiosrachadh",
+  "myInfo": "Mo Fhiosrachadh",
+  "alertExcludes": "Eisiamhan Rabhaidh",
+  "references": "Iomraidhean",
+  "offenceCodes": "Codan Eucoir",
+  "trafficCodes": "Codan Trafaig",
+  "exemptionCodes": "Codan Saoraidh",
+  "autoDvlas": "DVLAan Fein-obrachail",
+  "schedules": "Claran-ama",
+  "vrms": "VRMan",
+  "exportVrms": "As-mhalairt VRMan",
+  "importVrms": "A-steach-mhalairt VRMan",
+  "nodes": "Nodaichean",
+  "remoteActions": "Gniomhan Iomallach",
+  "attendedEnforcement": "Le lathaireachd",
+  "mobileEnforcement": "Gluasadach",
+  "discardReasons": "Adhbharan Cur Air Falbh",
+  "whitelist": "Liostaichean Geal",
+  "auditLog": "Logaichean Sgrudhaidh",
+  "appLogs": "Logaichean Aplacaid",
+  "serviceLogs": "Logaichean Seirbheis",
+  "alertStats": "Rabhaidhean",
+  "users": "Cleachdaichean",
+  "health": "Slainte",
+  "vprManager": "Manaidsear VPR",
+  "vrecManager": "Manaidsear VREC",
+  "managers": "Manaidsearan",
+  "permitCheckers": "Luchd-sgrÃ¹daidh Cead",
+  "workflow": "Sruth-obrach",
+  "vrecLocks": "Glasan VREC",
+  "vrmTracking": "Tracadh VRM",
+  "services": "Seirbheisean"
+ },
+ "health": {
+  "title": "Sealladh Slainte",
+  "description": "A' gairm /probe/live agus /probe/ready air gach mion-sheirbheis.",
+  "refresh": "Uraich",
+  "probing": "A' deuchainnâ€¦",
+  "restartAll": "Ath-thoisirich na h-Uile",
+  "restartingAll": "A' cur na h-uile air aisâ€¦",
+  "service": "Seirbheis",
+  "code": "Cod",
+  "port": "Port",
+  "live": "Beo",
+  "ready": "Deiseil",
+  "latency": "Mairneal",
+  "actions": "Gniomhan",
+  "restart": "Ath-thoisirich",
+  "restarting": "A' toirt air aisâ€¦",
+  "restarted": "Air ath-thoiseachadh âœ“",
+  "failed": "Dh'fhaillig âœ—"
+ },
+ "nodes": {
+  "title": "Nodaichean",
+  "loading": "A' luchdachadh nodaicheanâ€¦",
+  "newNode": "+ Nod Ur",
+  "search": "Lorg nodaicheanâ€¦",
+  "noNodes": "Cha deach nodaichean a lorg.",
+  "noMatch": "Chan eil nodaichean sam bith a' freagairt an luirg agad.",
+  "checkingStatus": "A' sgrudhAdh inbheâ€¦",
+  "remoteActions": "Gniomhan Iomallach â†’",
+  "permanent": "Maireannach",
+  "temp": "Sealach",
+  "version": "Tionndadh",
+  "alerts": "Rabhaidhean"
+ },
+ "remoteActions": {
+  "title": "Gniomhan Iomallach",
+  "scheduledTasks": "Gnìomhan Clàraichte",
+  "envVariables": "Caochladairean Àrainneachd",
+  "backToNodes": "â† Air ais gu Nodaichean",
+  "nodeIpPreassigned": "IP an noid ro-shuidhichte",
+  "systemInfo": "Fiosrachadh an t-Siostaim",
+  "installedApps": "Aplacaidean Stalaichte",
+  "fileManager": "Manaidsear Faidhlichean",
+  "services": "Seirbheisean",
+  "loading": "A' luchdachadhâ€¦",
+  "refresh": "Uraich",
+  "noApps": "Cha deach aplacaidean a lorg.",
+  "noMatch": "Chan eil aplacaidean sam bith a' freagairt an luirg agad.",
+  "uninstall": "Di-stalaich",
+  "uninstalling": "A' di-stalachadhâ€¦",
+  "confirmUninstall": "Dearbhaich Di-stalachadh",
+  "cannotUndo": "Chan urrainnear an gniomh seo a neo-dheanamh."
+ },
+ "dashboard": {
+  "title": "RemEx",
+  "subtitle": "Leigidh Remote Explorer (RemEx) leat na frithealaichean cèin agad (stèidhichte air Windows) a stiùireadh à aon àite. Cleachd an rioban gu h-àrd airson seòladh, no tagh roinn gu h-ìosal gus tòiseachadh.",
+  "comingSoon": "A' tighinn a dh'aithghearr",
+  "tabs": {
+   "operations": {
+    "label": "Obrachaidhean",
+    "description": "Dèan sgrùdadh is stiùireadh air frithealaichean cèin — gnìomhachd faidhle/pasgan, obraichean clàraichte, logaichean seirbheis is fiosrachadh siostaim."
+   },
+   "administration": {
+    "label": "Rianachd",
+    "description": "Dèan sgrùdadh air slàinte Seirbheis Rianachd an Fhrithealaiche Chèin."
+   }
+  },
+  "services": {
+   "remoteActions": "Gnìomhan cèin",
+   "serviceLogs": "Logaichean seirbheis",
+   "healthOverview": "Foir-shealladh slàinte"
+  }
+ }
+}

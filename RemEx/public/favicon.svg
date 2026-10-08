@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Dark background -->
+  <rect width="64" height="64" rx="12" fill="#1a1f2e"/>
+  <!-- Terminal chevron > -->
+  <polyline
+    points="10,20 23,32 10,44"
+    stroke="#00c8a0" stroke-width="5.5"
+    stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Cursor underline _ -->
+  <line x1="27" y1="44" x2="45" y2="44"
+    stroke="#00c8a0" stroke-width="5" stroke-linecap="round"/>
+  <!-- Remote outbound arrow (top-right) -->
+  <line x1="42" y1="22" x2="54" y2="10"
+    stroke="#4fa3e0" stroke-width="4" stroke-linecap="round"/>
+  <polyline
+    points="44,10 54,10 54,20"
+    stroke="#4fa3e0" stroke-width="4"
+    stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

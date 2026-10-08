@@ -1,0 +1,364 @@
+{
+ "enforcement": {
+  "captures": {
+   "source": "Ffynhonnell"
+  },
+  "alert": {
+   "toast": {
+    "title": "Rhybudd peiriant",
+    "confidence": "Hyder"
+   },
+   "source": {
+    "engine": "peiriant",
+    "manual": "Ã¢ llaw"
+   }
+  }
+ },
+ "welcome": "Croeso i'n gwefan amlieithog!",
+ "hello": "Helo, {{name}}!",
+ "logout": "Allgofnodi",
+ "loginError": "Enw defnyddiwr neu gyfrinair annilys. Rhowch gynnig arall arni.",
+ "loading": "Yn llwytho",
+ "error": "Gwall",
+ "userProfile": {
+  "role": "RÃ´l",
+  "user": "Defnyddiwr",
+  "createdAt": "Wedi'i Greu",
+  "lastSignIn": "Mewngofnodi Diwethaf",
+  "currentPassword": "Cyfrinair Cyfredol",
+  "changePassword": "Newid Cyfrinair",
+  "newPassword": "Cyfrinair Newydd",
+  "confirmPassword": "Cadarnhau Cyfrinair",
+  "confirm": "Cadarnhau",
+  "cancel": "Canslo",
+  "success": "Cyfrinair wedi'i ddiweddaru'n llwyddiannus!",
+  "errors": {
+   "empty": "Ni all meysydd cyfrinair fod yn wag",
+   "mismatch": "Nid yw'r cyfrineiriau'n cyfateb",
+   "length": "Rhaid i'r cyfrinair fod yn o leiaf 8 nod",
+   "failed": "Methodd diweddaru'r cyfrinair. Rhowch gynnig arall arni.",
+   "minLength": "Rhaid bod o leiaf 8 nod",
+   "uppercase": "Mae angen o leiaf un llythyren fawr",
+   "number": "Mae angen o leiaf un rhif",
+   "specialChar": "Ychwanegwch symbol arbennig",
+   "tooShort": "Rhy fyr",
+   "weak": "Gwan",
+   "moderate": "Canolig",
+   "strong": "Cryf"
+  }
+ },
+ "login": {
+  "welcome": "Croeso",
+  "subtitle": "Mewngofnodwch i {{appName}}",
+  "username": "Enw Defnyddiwr",
+  "password": "Cyfrinair",
+  "loginButton": "Mewngofnodi",
+  "sessionExpired": "Mae eich sesiwn wedi dod i ben. Mewngofnodwch eto."
+ },
+ "maps": {
+  "maps": "Mapiau",
+  "zones": "Ardaloedd",
+  "description": "Disgrifiad",
+  "coordinates": "Cyfesurynnau",
+  "zoomLevel": "Lefel Chwyddo",
+  "customerId": "ID Cwsmer",
+  "locationId": "ID Lleoliad",
+  "lastUpdated": "Diweddarwyd Ddiwethaf",
+  "editMap": "Golygu Map",
+  "addMap": "Ychwanegu Map",
+  "deleteMap": "Dileu Map",
+  "deleteMapConfirmation": "Ydych chi'n siwr eich bod am ddileu'r map hwn?",
+  "name": "Enw",
+  "latitude": "Lledred",
+  "longitude": "Hydred",
+  "search": "Chwilio am dref, dinas, cod post...",
+  "associations": "Cysylltiadau"
+ },
+ "map": {
+  "map": "Map",
+  "showMap": "Dangos Map",
+  "satellite": "Lloeren",
+  "showSatellite": "Dangos Lloeren",
+  "search": "Chwilio am dref, dinas, cod post..."
+ },
+ "mapInfo": {
+  "error": {
+   "title": "Methu a llwytho gwybodaeth y map",
+   "message": "Cafwyd gwall wrth lwytho manylion y map. Rhowch gynnig arall arni.",
+   "retryButton": "Rhoi cynnig arall arni"
+  }
+ },
+ "search": {
+  "search": "Chwilio",
+  "showing": "Dangos",
+  "of": "o",
+  "previous": "Blaenorol",
+  "next": "Nesaf",
+  "noResults": "Dim canlyniadau",
+  "clearSearch": "Clirio chwiliad",
+  "suggestionsUnavailable": "Awgrymiadau ddim ar gael. Gwasgwch Enter i chwilio.",
+  "hint": "Gwasgwch Enter i chwilio."
+ },
+ "common": {
+  "add": "Ychwanegu",
+  "create": "Creu",
+  "creating": "Yn creu...",
+  "edit": "Golygu",
+  "delete": "Dileu",
+  "save": "Cadw",
+  "saving": "Yn cadw...",
+  "cancel": "Canslo",
+  "below": "Isod",
+  "beside": "Wrth Ymyl",
+  "refresh": "Adnewyddu",
+  "select": "Dewis",
+  "selecting": "Yn dewisâ€¦",
+  "deleting": "Yn dileuâ€¦",
+  "noRows": "Dim rhesi eto. Cliciwch + Newydd i ychwanegu un.",
+  "noRowsFilter": "Nid oes rhesi yn cyfateb i'r hidlydd.",
+  "rows": "rhesi",
+  "row": "rhes"
+ },
+ "zones": {
+  "key": "Allwedd Ardal",
+  "colour": "Lliw",
+  "lock": "Statws Cloi",
+  "camera": "Safle Camera",
+  "description": "Disgrifiad",
+  "pcnProvider": "Darparwr PCN",
+  "direction": "Cyfeiriad",
+  "icesLocCode": "Cod Lleoliad",
+  "offCode": "Cod Trosedd",
+  "permitZoneId": "ID Ardal Caniatad",
+  "schedName": "Enw Amserlen",
+  "type": "Math o Ardal",
+  "editMapZone": "Golygu Ardal Map",
+  "addMapZone": "Ychwanegu Ardal Map",
+  "addMapZoneError": "Cafwyd gwall wrth ychwanegu ardal map. Rhowch gynnig arall arni.",
+  "deleteMapZone": "Dileu Ardal Map",
+  "deleteMapZoneConfirmation": "Ydych chi'n siwr eich bod am ddileu'r ardal map hon?",
+  "name": "Enw"
+ },
+ "zoneInfo": {
+  "error": {
+   "title": "Methu a llwytho gwybodaeth ardal y map",
+   "message": "Cafwyd gwall wrth lwytho manylion ardal y map. Rhowch gynnig arall arni.",
+   "retryButton": "Rhoi cynnig arall arni"
+  }
+ },
+ "draw": {
+  "fullscreen": "Sgrin lawn",
+  "exitFullscreen": "Gadael sgrin lawn",
+  "drawPolygon": "Tynnu",
+  "editPolygon": "Golygu",
+  "clear": "Clirio",
+  "redraw": "Ail-dynnu"
+ },
+ "about": {
+  "about": "Ynglyn a",
+  "version": "Fersiwn"
+ },
+ "schedules": {
+  "schedules": "Amserlenni",
+  "name": "Enw Amserlen",
+  "dayOfWeek": "Diwrnod o'r Wythnos",
+  "startTime": "Amser Cychwyn",
+  "stopTime": "Amser Gorffen",
+  "secondStartTime": "Ail Amser Cychwyn",
+  "secondStopTime": "Ail Amser Gorffen",
+  "editSchedule": "Golygu Amserlen",
+  "addSchedule": "Ychwanegu Amserlen",
+  "deleteSchedule": "Dileu Amserlen",
+  "deleteScheduleConfirmation": "Ydych chi'n siwr eich bod am ddileu'r amserlen hon?",
+  "addScheduleError": "Cafwyd gwall wrth ychwanegu'r amserlen. Rhowch gynnig arall arni.",
+  "editScheduleError": "Cafwyd gwall wrth olygu'r amserlen. Rhowch gynnig arall arni.",
+  "schedule": "Amserlen",
+  "additionalSchedule": "Amserlen Ychwanegol"
+ },
+ "settings": {
+  "settings": "Gosodiadau",
+  "pagination": "Tudalennu",
+  "buttons": {
+   "primaryLocation": "Lleoliad y prif fotwm",
+   "left": "Chwith",
+   "right": "Dde"
+  },
+  "undo": "Dadwneud",
+  "reset": "Ailosod",
+  "defaultMapLocation": "Lleoliad rhagosodedig map newydd"
+ },
+ "logs": {
+  "title": "Gwyliedydd Cofnodion",
+  "searchLabel": "Chwilio",
+  "searchPlaceholder": "Hidlo yn ol unrhyw destun",
+  "groupBy": "Grwpio yn ol",
+  "group": {
+   "none": "Dim",
+   "message": "Neges",
+   "context": "Cyd-destun",
+   "level": "Lefel",
+   "date": "Dyddiad"
+  },
+  "showDetails": "Dangos manylion",
+  "consoleParser": "Dosrannwr consol",
+  "clearInput": "Clirio mewnbwn",
+  "clear": "Clirio",
+  "clearLevels": "Clirio lefelau",
+  "showingRange": "Dangos {{from}}-{{to}} o {{total}} cofnod",
+  "items": "eitem(au)",
+  "prev": "Blaenorol",
+  "pageOf": "Tudalen {{page}} o {{total}}",
+  "next": "Nesaf",
+  "pasteHint": "Gludwch eich testun cofnod yma, neu uwchlwythwch ffeil gan ddefnyddio'r dewisydd uchod.",
+  "chooseFile": "Dewiswch eich ffeil",
+  "noFileSelected": "Dim ffeil wedi'i dewis",
+  "levels": {
+   "error": "gwall",
+   "warn": "rhybudd",
+   "info": "gwybodaeth",
+   "debug": "dadfygio",
+   "verbose": "manwl",
+   "silly": "silly"
+  }
+ },
+ "validation": {
+  "required": "yn ofynnol",
+  "tooLong": "yn rhy hir",
+  "tooShort": "yn rhy fyr",
+  "mustBe": "rhaid iddo fod",
+  "mustBeUnique": "rhaid iddo fod yn unigryw",
+  "invalid": "yn annilys",
+  "mustBeFuture": "rhaid iddo fod yn y dyfodol"
+ },
+ "users": {
+  "users": "Defnyddwyr",
+  "username": "Enw Defnyddiwr",
+  "email": "E-bost",
+  "role": "Rol",
+  "editUser": "Golygu Defnyddiwr",
+  "addUser": "Ychwanegu Defnyddiwr",
+  "deleteUser": "Dileu Defnyddiwr",
+  "deleteUserConfirmation": "Ydych chi'n siwr eich bod am ddileu'r defnyddiwr hwn?",
+  "password": "Cyfrinair",
+  "expiryDate": "Dyddiad Dod i Ben"
+ },
+ "nav": {
+  "home": "Cartref",
+  "configuration": "Ffurfweddiad",
+  "operations": "Gweithrediadau",
+  "enforcement": "Gorfodaeth",
+  "alertsManagement": "Rheoli Rhybuddion",
+  "reports": "Adroddiadau",
+  "administration": "Gweinyddiaeth",
+  "dashboard": "Dangosfwrdd",
+  "workspace": "Gweithle",
+  "signIn": "Mewngofnodi",
+  "signOut": "Allgofnodi",
+  "notSignedIn": "Heb fewngofnodi",
+  "signedInAs": "Wedi mewngofnodi fel",
+  "openMyInfo": "Agor Fy Ngwybodaeth",
+  "myInfo": "Fy Ngwybodaeth",
+  "alertExcludes": "Eithriadau Rhybuddion",
+  "references": "Cyfeiriadau",
+  "offenceCodes": "Codau Trosedd",
+  "trafficCodes": "Codau Traffig",
+  "exemptionCodes": "Codau Esemptiad",
+  "autoDvlas": "DVLAs Awtomatig",
+  "schedules": "Amserlenni",
+  "vrms": "VRMs",
+  "exportVrms": "Allforio VRMs",
+  "importVrms": "Mewnforio VRMs",
+  "nodes": "Nodau",
+  "remoteActions": "Gweithredoedd Pell",
+  "attendedEnforcement": "Gyda phresenoldeb",
+  "mobileEnforcement": "Symudol",
+  "discardReasons": "Rhesymau Gwrthod",
+  "whitelist": "Rhestrau Gwyn",
+  "auditLog": "Cofnodion Archwilio",
+  "appLogs": "Cofnodion Cymhwysiad",
+  "serviceLogs": "Cofnodion Gwasanaeth",
+  "alertStats": "Rhybuddion",
+  "users": "Defnyddwyr",
+  "health": "Iechyd",
+  "vprManager": "Rheolwr VPR",
+  "vrecManager": "Rheolwr VREC",
+  "managers": "Rheolwyr",
+  "permitCheckers": "Gwirwyr Trwyddedau",
+  "workflow": "Llif Gwaith",
+  "vrecLocks": "Cloeon VREC",
+  "vrmTracking": "Olrhain VRM",
+  "services": "Gwasanaethau"
+ },
+ "health": {
+  "title": "Trosolwg Iechyd",
+  "description": "Yn galw /probe/live a /probe/ready ar bob gwasanaeth micro.",
+  "refresh": "Adnewyddu",
+  "probing": "Yn profiâ€¦",
+  "restartAll": "Ailgychwyn Pob Un",
+  "restartingAll": "Yn ailgychwyn pob unâ€¦",
+  "service": "Gwasanaeth",
+  "code": "Cod",
+  "port": "Porth",
+  "live": "Byw",
+  "ready": "Parod",
+  "latency": "Hwyrni",
+  "actions": "Gweithredoedd",
+  "restart": "Ailgychwyn",
+  "restarting": "Yn ailgychwynâ€¦",
+  "restarted": "Ailgychwynnwyd âœ“",
+  "failed": "Wedi methu âœ—"
+ },
+ "nodes": {
+  "title": "Nodau",
+  "loading": "Yn llwytho nodauâ€¦",
+  "newNode": "+ Nod Newydd",
+  "search": "Chwilio am nodauâ€¦",
+  "noNodes": "Dim nodau wedi'u canfod.",
+  "noMatch": "Nid oes nodau yn cyfateb i'ch chwiliad.",
+  "checkingStatus": "Yn gwirio statwsâ€¦",
+  "remoteActions": "Gweithredoedd Pell â†’",
+  "permanent": "Parhaol",
+  "temp": "Dros dro",
+  "version": "Fersiwn",
+  "alerts": "Rhybuddion"
+ },
+ "remoteActions": {
+  "title": "Gweithredoedd Pell",
+  "scheduledTasks": "Tasgau Rhaglenedig",
+  "envVariables": "Newidynnau Amgylchedd",
+  "backToNodes": "â† Yn ol i Nodau",
+  "nodeIpPreassigned": "IP y nod wedi'i ragosod",
+  "systemInfo": "Gwybodaeth System",
+  "installedApps": "Apiau wedi'u Gosod",
+  "fileManager": "Rheolwr Ffeiliau",
+  "services": "Gwasanaethau",
+  "loading": "Yn llwythoâ€¦",
+  "refresh": "Adnewyddu",
+  "noApps": "Dim apiau wedi'u canfod.",
+  "noMatch": "Nid oes apiau yn cyfateb i'ch chwiliad.",
+  "uninstall": "Dad-osod",
+  "uninstalling": "Yn dad-osodâ€¦",
+  "confirmUninstall": "Cadarnhau Dad-osod",
+  "cannotUndo": "Ni ellir dadwneud y weithred hon."
+ },
+ "dashboard": {
+  "title": "RemEx",
+  "subtitle": "Mae Remote Explorer (RemEx) yn eich galluogi i reoli eich gweinyddion pell (yn seiliedig ar Windows) o un lle. Defnyddiwch y rhuban uchod i lywio, neu dewiswch adran isod i ddechrau.",
+  "comingSoon": "Yn dod yn fuan",
+  "tabs": {
+   "operations": {
+    "label": "Gweithrediadau",
+    "description": "Monitro a rheoli gweinyddion pell — gweithrediadau ffeil/ffolder, tasgau wedi'u hamserlennu, cofnodion gwasanaeth a gwybodaeth system."
+   },
+   "administration": {
+    "label": "Gweinyddiaeth",
+    "description": "Monitro iechyd y Gwasanaeth Rheoli Gweinydd Pell."
+   }
+  },
+  "services": {
+   "remoteActions": "Gweithredoedd pell",
+   "serviceLogs": "Cofnodion gwasanaeth",
+   "healthOverview": "Trosolwg iechyd"
+  }
+ }
+}

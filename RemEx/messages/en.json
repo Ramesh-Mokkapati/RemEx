@@ -1,0 +1,367 @@
+{
+ "enforcement": {
+  "captures": {
+   "source": "Source"
+  },
+  "alert": {
+   "toast": {
+    "title": "Engine alert",
+    "confidence": "Confidence"
+   },
+   "source": {
+    "engine": "engine",
+    "manual": "manual"
+   }
+  }
+ },
+ "welcome": "Welcome to our multilingual website!",
+ "hello": "Hello, {{name}}!",
+ "logout": "Logout",
+ "loginError": "Invalid username or password. Please try again.",
+ "loading": "Loading",
+ "error": "Error",
+ "userProfile": {
+  "role": "Role",
+  "user": "User",
+  "createdAt": "Created At",
+  "lastSignIn": "Last Sign In",
+  "currentPassword": "Current Password",
+  "changePassword": "Change Password",
+  "newPassword": "New Password",
+  "confirmPassword": "Confirm Password",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "success": "Password updated successfully!",
+  "errors": {
+   "empty": "Password fields cannot be empty",
+   "mismatch": "Passwords do not match",
+   "length": "Password must be at least 8 characters",
+   "failed": "Failed to update password. Please try again.",
+   "minLength": "Must be at least 8 characters",
+   "uppercase": "Needs at least one uppercase letter",
+   "number": "Needs at least one number",
+   "specialChar": "Add a special symbol",
+   "tooShort": "Too short",
+   "weak": "Weak",
+   "moderate": "Moderate",
+   "strong": "Strong"
+  }
+ },
+ "login": {
+  "welcome": "Welcome",
+  "subtitle": "Please log in to {{appName}}",
+  "username": "Username",
+  "password": "Password",
+  "loginButton": "Log In",
+  "sessionExpired": "Your session has expired. Please sign in again."
+ },
+ "maps": {
+  "maps": "Maps",
+  "zones": "Zones",
+  "description": "Description",
+  "coordinates": "Coordinates",
+  "zoomLevel": "Zoom Level",
+  "customerId": "Customer ID",
+  "locationId": "Location ID",
+  "lastUpdated": "Last Updated",
+  "editMap": "Edit Map",
+  "addMap": "Add Map",
+  "deleteMap": "Delete Map",
+  "deleteMapConfirmation": "Are you sure you want to delete this map?",
+  "name": "Name",
+  "latitude": "Latitude",
+  "longitude": "Longitude",
+  "search": "Search town, city, postcode...",
+  "associations": "Associations"
+ },
+ "map": {
+  "map": "Map",
+  "showMap": "Show Map",
+  "satellite": "Satellite",
+  "showSatellite": "Show Satellite",
+  "search": "Search town, city, postcode..."
+ },
+ "mapInfo": {
+  "error": {
+   "title": "Unable to load map information",
+   "message": "There was an error loading the map details. Please try again.",
+   "retryButton": "Try again"
+  }
+ },
+ "search": {
+  "search": "Search",
+  "showing": "Showing",
+  "of": "of",
+  "previous": "Previous",
+  "next": "Next",
+  "noResults": "No results",
+  "clearSearch": "Clear search",
+  "suggestionsUnavailable": "Suggestions unavailable. Press Enter to search.",
+  "hint": "Press Enter to search."
+ },
+ "common": {
+  "add": "Add",
+  "create": "Create",
+  "creating": "Creating...",
+  "edit": "Edit",
+  "delete": "Delete",
+  "save": "Save",
+  "saving": "Saving...",
+  "cancel": "Cancel",
+  "below": "Below",
+  "beside": "Beside",
+  "refresh": "Refresh",
+  "select": "Select",
+  "selecting": "Selecting…",
+  "deleting": "Deleting…",
+  "noRows": "No rows yet. Click + New to add one.",
+  "noRowsFilter": "No rows match the filter.",
+  "rows": "rows",
+  "row": "row"
+ },
+ "zones": {
+  "key": "Zone Key",
+  "colour": "Color",
+  "lock": "Lock Status",
+  "camera": "Camera Position",
+  "description": "Description",
+  "pcnProvider": "PCN Provider",
+  "direction": "Direction",
+  "icesLocCode": "Location Code",
+  "offCode": "Offence Code",
+  "permitZoneId": "Permit Zone ID",
+  "schedName": "Schedule Name",
+  "type": "Zone Type",
+  "editMapZone": "Edit Map Zone",
+  "addMapZone": "Add Map Zone",
+  "addMapZoneError": "There was an error adding the map zone. Please try again.",
+  "deleteMapZone": "Delete Map Zone",
+  "deleteMapZoneConfirmation": "Are you sure you want to delete this map zone?",
+  "name": "Name"
+ },
+ "zoneInfo": {
+  "error": {
+   "title": "Unable to load map zone information",
+   "message": "There was an error loading the map zone details. Please try again.",
+   "retryButton": "Try again"
+  }
+ },
+ "draw": {
+  "fullscreen": "Fullscreen",
+  "exitFullscreen": "Exit Fullscreen",
+  "drawPolygon": "Draw",
+  "editPolygon": "Edit",
+  "clear": "Clear",
+  "redraw": "Redraw"
+ },
+ "about": {
+  "about": "About",
+  "version": "Version"
+ },
+ "schedules": {
+  "schedules": "Schedules",
+  "name": "Schedule Name",
+  "dayOfWeek": "Day Of Week",
+  "startTime": "Start Time",
+  "stopTime": "Stop Time",
+  "secondStartTime": "Second Start Time",
+  "secondStopTime": "Second Stop Time",
+  "editSchedule": "Edit Schedule",
+  "addSchedule": "Add Schedule",
+  "deleteSchedule": "Delete Schedule",
+  "deleteScheduleConfirmation": "Are you sure you want to delete this schedule?",
+  "addScheduleError": "There was an error adding the schedule. Please try again.",
+  "editScheduleError": "There was an error editing the schedule. Please try again.",
+  "schedule": "Schedule",
+  "additionalSchedule": "Additional Schedule"
+ },
+ "settings": {
+  "settings": "Settings",
+  "pagination": "Pagination",
+  "buttons": {
+   "primaryLocation": "Primary button location",
+   "left": "Left",
+   "right": "Right"
+  },
+  "undo": "Undo",
+  "reset": "Reset",
+  "defaultMapLocation": "New map default location"
+ },
+ "logs": {
+  "title": "Log Viewer",
+  "searchLabel": "Search",
+  "searchPlaceholder": "Filter by any text",
+  "groupBy": "Group by",
+  "group": {
+   "none": "None",
+   "message": "Message",
+   "context": "Context",
+   "level": "Level",
+   "date": "Date"
+  },
+  "showDetails": "Show details",
+  "consoleParser": "Console parser",
+  "clearInput": "Clear input",
+  "clear": "Clear",
+  "clearLevels": "Clear levels",
+  "showingRange": "Showing {{from}}-{{to}} of {{total}} entries",
+  "items": "item(s)",
+  "prev": "Prev",
+  "pageOf": "Page {{page}} of {{total}}",
+  "next": "Next",
+  "pasteHint": "Paste your log text here, or upload a file using the chooser above.",
+  "chooseFile": "Choose your file",
+  "noFileSelected": "No file selected",
+  "levels": {
+   "error": "error",
+   "warn": "warn",
+   "info": "info",
+   "debug": "debug",
+   "verbose": "verbose",
+   "silly": "silly"
+  }
+ },
+ "validation": {
+  "required": "is required",
+  "tooLong": "is too long",
+  "tooShort": "is too short",
+  "mustBe": "must be",
+  "mustBeUnique": "must be unique",
+  "invalid": "is invalid",
+  "mustBeFuture": "must be in the future"
+ },
+ "users": {
+  "users": "Users",
+  "username": "Username",
+  "email": "Email",
+  "role": "Role",
+  "editUser": "Edit User",
+  "addUser": "Add User",
+  "deleteUser": "Delete User",
+  "deleteUserConfirmation": "Are you sure you want to delete this user?",
+  "password": "Password",
+  "expiryDate": "Expiry Date"
+ },
+ "nav": {
+  "home": "Home",
+  "configuration": "Configuration",
+  "operations": "Operations",
+  "enforcement": "Enforcement",
+  "alertsManagement": "Alerts Management",
+  "reports": "Reports",
+  "administration": "Administration",
+  "dashboard": "Dashboard",
+  "workspace": "Workspace",
+  "signIn": "Sign in",
+  "signOut": "Sign out",
+  "notSignedIn": "Not signed in",
+  "signedInAs": "Signed in as",
+  "openMyInfo": "Open My Info",
+  "myInfo": "My Info",
+  "alertExcludes": "Alert Excludes",
+  "references": "References",
+  "offenceCodes": "Offence Codes",
+  "trafficCodes": "Traffic Codes",
+  "exemptionCodes": "Exemptions",
+  "autoDvlas": "Auto DVLAs",
+  "schedules": "Schedules",
+  "vrms": "VRMs",
+  "exportVrms": "Export VRMs",
+  "importVrms": "Import VRMs",
+  "nodes": "Nodes",
+  "remoteActions": "Remote Actions",
+  "attendedEnforcement": "Attended",
+  "mobileEnforcement": "Mobile",
+  "discardReasons": "Discard Reasons",
+  "whitelist": "Whitelists",
+  "auditLog": "Audit Logs",
+  "appLogs": "Application Logs",
+  "serviceLogs": "Service Logs",
+  "alertStats": "Alerts",
+  "users": "Users",
+  "services": "Services",
+  "health": "Health",
+  "vprManager": "VPR Manager",
+  "vrecManager": "VREC Manager",
+  "managers": "Managers",
+  "permitCheckers": "Permit Checkers",
+  "workflow": "Workflow",
+  "vrecLocks": "VREC Locks",
+  "vrmTracking": "VRM Tracking"
+ },
+ "health": {
+  "title": "Health overview",
+  "description": "Calls /probe/live and /probe/ready on every microservice.",
+  "refresh": "Refresh",
+  "probing": "Probing…",
+  "restartAll": "Restart All",
+  "restartingAll": "Restarting all…",
+  "service": "Service",
+  "code": "Code",
+  "port": "Port",
+  "live": "Live",
+  "ready": "Ready",
+  "latency": "Latency",
+  "actions": "Actions",
+  "restart": "Restart",
+  "restarting": "Restarting…",
+  "restarted": "Restarted ✓",
+  "failed": "Failed ✗"
+ },
+ "nodes": {
+  "title": "Nodes",
+  "loading": "Loading nodes…",
+  "newNode": "+ New Node",
+  "search": "Search nodes…",
+  "noNodes": "No nodes found.",
+  "noMatch": "No nodes match your search.",
+  "checkingStatus": "Checking status…",
+  "remoteActions": "Remote Actions →",
+  "permanent": "Perm",
+  "temp": "Temp",
+  "version": "Version",
+  "alerts": "Alerts"
+ },
+ "remoteActions": {
+  "title": "Remote Actions",
+  "scheduledTasks": "Scheduled Tasks",
+  "envVariables": "Environment Variables",
+  "startupApps": "Startup Apps",
+  "registry": "Registry",
+  "regScanner": "Reg Scanner",
+  "backToNodes": "← Back to Nodes",
+  "nodeIpPreassigned": "Node IP pre-assigned",
+  "systemInfo": "System Info",
+  "installedApps": "Installed Apps",
+  "fileManager": "File Manager",
+  "services": "Services",
+  "loading": "Loading…",
+  "refresh": "Refresh",
+  "noApps": "No applications found.",
+  "noMatch": "No apps match your search.",
+  "uninstall": "Uninstall",
+  "uninstalling": "Uninstalling…",
+  "confirmUninstall": "Confirm Uninstall",
+  "cannotUndo": "This action cannot be undone."
+ },
+ "dashboard": {
+  "title": "RemEx",
+  "subtitle": "Remote Explorer (RemEx) lets you manage your Remote servers (Windows based) from one place. Navigate with the ribbon above, or pick a section below to get started.",
+  "comingSoon": "Coming soon",
+  "tabs": {
+   "operations": {
+    "label": "Operations",
+    "description": "Monitor and manage remote servers — file/folder operations, scheduled tasks, service logs and system info."
+   },
+   "administration": {
+    "label": "Administration",
+    "description": "Monitor Remote Server Management Service health."
+   }
+  },
+  "services": {
+   "remoteActions": "Remote Actions",
+   "serviceLogs": "Service Logs",
+   "healthOverview": "Health Overview"
+  }
+ }
+}

@@ -1,0 +1,364 @@
+{
+ "enforcement": {
+  "captures": {
+   "source": "Hailed By"
+  },
+  "alert": {
+   "toast": {
+    "title": "Cannon alert",
+    "confidence": "Sureness"
+   },
+   "source": {
+    "engine": "ship",
+    "manual": "by hand"
+   }
+  }
+ },
+ "welcome": "Ahoy, welcome to our multilingual vessel!",
+ "hello": "Ahoy, {{name}}!",
+ "logout": "Abandon Ship",
+ "loginError": "Blimey! Invalid seafarer name or secret code. Try again, ye scallywag!",
+ "loading": "Hoisting the Sails",
+ "error": "Shiver Me Timbers",
+ "userProfile": {
+  "role": "Ship's Post",
+  "user": "Seafarer",
+  "createdAt": "First Set Sail",
+  "lastSignIn": "Last Boarded",
+  "currentPassword": "Current Secret Code",
+  "changePassword": "Change Secret Code",
+  "newPassword": "New Secret Code",
+  "confirmPassword": "Confirm Secret Code",
+  "confirm": "Aye, Confirm",
+  "cancel": "Belay That",
+  "success": "Yer secret code be updated, ye scallywag!",
+  "errors": {
+   "empty": "Secret code fields can't be empty, matey",
+   "mismatch": "Yer secret codes don't match, arr!",
+   "length": "Secret code must be at least 8 characters long, ye landlubber",
+   "failed": "Failed to update yer secret code. Try again, ye scurvy dog!",
+   "minLength": "Must be at least 8 characters, arr",
+   "uppercase": "Needs at least one CAPITAL letter, matey",
+   "number": "Needs at least one number, ye swab",
+   "specialChar": "Add a special symbol, arr!",
+   "tooShort": "Too short, ye landlubber",
+   "weak": "Weak as bilge water",
+   "moderate": "Moderate strength",
+   "strong": "Strong as a ship's anchor"
+  }
+ },
+ "login": {
+  "welcome": "Ahoy",
+  "subtitle": "Board {{appName}}, ye scurvy dog!",
+  "username": "Seafarer Name",
+  "password": "Secret Code",
+  "loginButton": "Board Ship",
+  "sessionExpired": "Sua sessÃ£o expirou. Por favor, entre novamente."
+ },
+ "maps": {
+  "maps": "Sea Charts",
+  "zones": "Territories",
+  "description": "Tale",
+  "coordinates": "Bearings",
+  "zoomLevel": "Spyglass Power",
+  "customerId": "Merchant's Mark",
+  "locationId": "Port Number",
+  "lastUpdated": "Last Charted",
+  "editMap": "Redraw Chart",
+  "addMap": "Chart New Waters",
+  "deleteMap": "Sink Chart",
+  "deleteMapConfirmation": "Be ye sure ye want to send this chart to Davy Jones' locker?",
+  "name": "Moniker",
+  "latitude": "Northern Bearing",
+  "longitude": "Eastern Bearing",
+  "search": "Search fer port, harbor, treasure map coordinates...",
+  "associations": "Crew Relations"
+ },
+ "map": {
+  "map": "Chart",
+  "showMap": "Show me chart",
+  "satellite": "Bird's Eye",
+  "showSatellite": "Show bird's eye view",
+  "search": "Search port, harbor, coordinates..."
+ },
+ "mapInfo": {
+  "error": {
+   "title": "Blast! Can't fetch the sea chart!",
+   "message": "The chart be lost in rough waters. Try again, ye hardy soul!",
+   "retryButton": "Give it another go"
+  }
+ },
+ "search": {
+  "search": "Scout",
+  "showing": "Displaying",
+  "of": "of",
+  "previous": "Port",
+  "next": "Starboard",
+  "noResults": "No booty found",
+  "clearSearch": "Clear th' search",
+  "suggestionsUnavailable": "Arr, no suggestions be available. Hit Enter to be searchin'.",
+  "hint": "Hit Enter to be searchin'."
+ },
+ "common": {
+  "add": "Add to Cargo",
+  "create": "Forge",
+  "creating": "Forging...",
+  "edit": "Modify",
+  "delete": "Scuttle",
+  "save": "Stow",
+  "saving": "Stowing...",
+  "cancel": "Belay That",
+  "below": "Belowdecks",
+  "beside": "At yer elbow",
+  "refresh": "Atualizar",
+  "select": "Selecionar",
+  "selecting": "Selecionandoâ€¦",
+  "deleting": "Excluindoâ€¦",
+  "noRows": "Nenhuma linha ainda. Clique em + Novo para adicionar.",
+  "noRowsFilter": "Nenhuma linha corresponde ao filtro.",
+  "rows": "linhas",
+  "row": "linha"
+ },
+ "zones": {
+  "key": "Territory Mark",
+  "colour": "Colors",
+  "lock": "Lock Status",
+  "camera": "Crow's Nest View",
+  "description": "Tale",
+  "pcnProvider": "Port Authority",
+  "direction": "Heading",
+  "icesLocCode": "Port Code",
+  "offCode": "Offence Code",
+  "permitZoneId": "Letters of Marque ID",
+  "schedName": "Sailing Schedule",
+  "type": "Territory Type",
+  "editMapZone": "Redraw Territory",
+  "addMapZone": "Chart New Territory",
+  "addMapZoneError": "Arrr! Thar be an error addin' the map zone. Try again, matey!",
+  "deleteMapZone": "Sink Territory",
+  "deleteMapZoneConfirmation": "Be ye sure ye want to send this territory to Davy Jones' locker?",
+  "name": "Title"
+ },
+ "zoneInfo": {
+  "error": {
+   "title": "Blast! Can't fetch the territory details!",
+   "message": "The territory details be lost in rough waters. Try again, ye hardy soul!",
+   "retryButton": "Give it another go"
+  }
+ },
+ "draw": {
+  "fullscreen": "Full sail",
+  "exitFullscreen": "Reef the sails",
+  "drawPolygon": "Mark th' chart",
+  "editPolygon": "Editar",
+  "clear": "Swab it clean",
+  "redraw": "Mark anew"
+ },
+ "about": {
+  "about": "'Bout",
+  "version": "Mark"
+ },
+ "schedules": {
+  "schedules": "Ship's Schedules",
+  "name": "Name o' the Schedule",
+  "dayOfWeek": "Day o' the Week",
+  "startTime": "Startin' Time",
+  "stopTime": "Stoppin' Time",
+  "secondStartTime": "Second Startin' Time",
+  "secondStopTime": "Second Stoppin' Time",
+  "editSchedule": "Tweak the Schedule",
+  "addSchedule": "Add a Schedule",
+  "deleteSchedule": "Scuttle the Schedule",
+  "deleteScheduleConfirmation": "Be ye sure ye want to scuttle this schedule?",
+  "addScheduleError": "Arrr! There be an error addin' the schedule. Try again, matey!",
+  "editScheduleError": "Arrr! There be an error editin' the schedule. Try again, matey!",
+  "schedule": "Sailin' Schedule",
+  "additionalSchedule": "Extra Sailin' Schedule"
+ },
+ "settings": {
+  "settings": "The Cap'n's tweaks",
+  "pagination": "Turn the page, ye scallywag",
+  "buttons": {
+   "primaryLocation": "Plant the main button",
+   "left": "Port hatch",
+   "right": "Starboard hatch"
+  },
+  "undo": "Belay That",
+  "reset": "Hoist The Anchor",
+  "defaultMapLocation": "New chart startin' point"
+ },
+ "logs": {
+  "title": "Log Spyglass",
+  "searchLabel": "Scout",
+  "searchPlaceholder": "Filter by any scrawl",
+  "groupBy": "Crew",
+  "group": {
+   "none": "Naught",
+   "message": "Missive",
+   "context": "Surroundin's",
+   "level": "Deck",
+   "date": "Day o' the sun"
+  },
+  "showDetails": "Show the juicy details",
+  "consoleParser": "Console parrrser",
+  "clearInput": "Swab the input",
+  "clear": "Swab",
+  "clearLevels": "Swab th' levels",
+  "showingRange": "Displaying {{from}}-{{to}} of {{total}} entries",
+  "items": "trinket(s)",
+  "prev": "Port",
+  "pageOf": "Page {{page}} of {{total}}",
+  "next": "Starboard",
+  "pasteHint": "Paste yer log scrawl here, or hoist a file with the chooser above.",
+  "chooseFile": "Choose yer parchment",
+  "noFileSelected": "No parchment selected",
+  "levels": {
+   "error": "Blunder",
+   "warn": "Heads-up",
+   "info": "Word",
+   "debug": "Spywork",
+   "verbose": "Yammerin'",
+   "silly": "Silly"
+  }
+ },
+ "validation": {
+  "required": "be required, arrr",
+  "tooLong": "be too long, matey",
+  "tooShort": "be too short, matey",
+  "mustBe": "must be",
+  "mustBeUnique": "must be one-of-a-kind, arr!",
+  "invalid": "be not seaworthy",
+  "mustBeFuture": "must be in the days t' come"
+ },
+ "users": {
+  "users": "Crew",
+  "username": "Seafarer Name",
+  "email": "Message-in-a-bottle",
+  "role": "Ship's Post",
+  "editUser": "Tweak Seafarer",
+  "addUser": "Recruit Seafarer",
+  "deleteUser": "Keelhaul Seafarer",
+  "deleteUserConfirmation": "Be ye sure ye want to send this seafarer to Davy Jones' locker?",
+  "password": "Secret Code",
+  "expiryDate": "Date o' Expiry"
+ },
+ "nav": {
+  "home": "InÃ­cio",
+  "configuration": "ConfiguraÃ§Ã£o",
+  "operations": "OperaÃ§Ãµes",
+  "enforcement": "AplicaÃ§Ã£o",
+  "alertsManagement": "GestÃ£o de Alertas",
+  "reports": "RelatÃ³rios",
+  "administration": "AdministraÃ§Ã£o",
+  "dashboard": "Painel",
+  "workspace": "Ãrea de trabalho",
+  "signIn": "Entrar",
+  "signOut": "Sair",
+  "notSignedIn": "NÃ£o autenticado",
+  "signedInAs": "Autenticado como",
+  "openMyInfo": "Abrir Minhas InformaÃ§Ãµes",
+  "myInfo": "Minhas informaÃ§Ãµes",
+  "alertExcludes": "ExclusÃµes de alertas",
+  "references": "ReferÃªncias",
+  "offenceCodes": "CÃ³digos de infraÃ§Ã£o",
+  "trafficCodes": "CÃ³digos de trÃ¢nsito",
+  "exemptionCodes": "CÃ³digos de isenÃ§Ã£o",
+  "autoDvlas": "DVLAs automÃ¡ticos",
+  "schedules": "Cronogramas",
+  "vrms": "VRMs",
+  "exportVrms": "Exportar VRMs",
+  "importVrms": "Importar VRMs",
+  "nodes": "NÃ³s",
+  "remoteActions": "AÃ§Ãµes remotas",
+  "attendedEnforcement": "Com presenÃ§a",
+  "mobileEnforcement": "MÃ³vel",
+  "discardReasons": "Motivos de descarte",
+  "whitelist": "Listas brancas",
+  "auditLog": "Registros de auditoria",
+  "appLogs": "Registros de aplicaÃ§Ã£o",
+  "serviceLogs": "Registros de serviÃ§o",
+  "alertStats": "Alertas",
+  "users": "UsuÃ¡rios",
+  "health": "SaÃºde",
+  "vprManager": "Gerenciador VPR",
+  "vrecManager": "Gerenciador VREC",
+  "managers": "Gerenciadores",
+  "permitCheckers": "Verificadores de PermissÃ£o",
+  "workflow": "Fluxo de trabalho",
+  "vrecLocks": "Bloqueios de VREC",
+  "vrmTracking": "Rastreamento de VRM",
+  "services": "Serviços"
+ },
+ "health": {
+  "title": "VisÃ£o geral de saÃºde",
+  "description": "Chama /probe/live e /probe/ready em cada microsserviÃ§o.",
+  "refresh": "Atualizar",
+  "probing": "Verificandoâ€¦",
+  "restartAll": "Reiniciar todos",
+  "restartingAll": "Reiniciando todosâ€¦",
+  "service": "ServiÃ§o",
+  "code": "CÃ³digo",
+  "port": "Porta",
+  "live": "Ao vivo",
+  "ready": "Pronto",
+  "latency": "LatÃªncia",
+  "actions": "AÃ§Ãµes",
+  "restart": "Reiniciar",
+  "restarting": "Reiniciandoâ€¦",
+  "restarted": "Reiniciado âœ“",
+  "failed": "Falhou âœ—"
+ },
+ "nodes": {
+  "title": "NÃ³s",
+  "loading": "Carregando nÃ³sâ€¦",
+  "newNode": "+ Novo nÃ³",
+  "search": "Pesquisar nÃ³sâ€¦",
+  "noNodes": "Nenhum nÃ³ encontrado.",
+  "noMatch": "Nenhum nÃ³ corresponde Ã  sua pesquisa.",
+  "checkingStatus": "Verificando statusâ€¦",
+  "remoteActions": "AÃ§Ãµes remotas â†’",
+  "permanent": "Perm",
+  "temp": "Temp",
+  "version": "VersÃ£o",
+  "alerts": "Alertas"
+ },
+ "remoteActions": {
+  "title": "AÃ§Ãµes remotas",
+  "scheduledTasks": "Tarefas Agendadas",
+  "envVariables": "Variáveis de Ambiente",
+  "backToNodes": "â† Voltar para os nÃ³s",
+  "nodeIpPreassigned": "IP do nÃ³ prÃ©-atribuÃ­do",
+  "systemInfo": "InformaÃ§Ãµes do sistema",
+  "installedApps": "Aplicativos instalados",
+  "fileManager": "Gerenciador de arquivos",
+  "services": "ServiÃ§os",
+  "loading": "Carregandoâ€¦",
+  "refresh": "Atualizar",
+  "noApps": "Nenhum aplicativo encontrado.",
+  "noMatch": "Nenhum aplicativo corresponde Ã  sua pesquisa.",
+  "uninstall": "Desinstalar",
+  "uninstalling": "Desinstalandoâ€¦",
+  "confirmUninstall": "Confirmar desinstalaÃ§Ã£o",
+  "cannotUndo": "Esta aÃ§Ã£o nÃ£o pode ser desfeita."
+ },
+ "dashboard": {
+  "title": "RemEx",
+  "subtitle": "O Remote Explorer (RemEx) permite gerir os seus servidores remotos (baseados em Windows) a partir de um só local. Utilize a faixa de opções acima para navegar, ou selecione uma secção abaixo para começar.",
+  "comingSoon": "Em breve",
+  "tabs": {
+   "operations": {
+    "label": "Operações",
+    "description": "Monitorize e gira servidores remotos — operações de ficheiros/pastas, tarefas agendadas, registos de serviço e informação do sistema."
+   },
+   "administration": {
+    "label": "Administração",
+    "description": "Monitorize o estado do serviço de gestão do servidor remoto."
+   }
+  },
+  "services": {
+   "remoteActions": "Ações remotas",
+   "serviceLogs": "Registos de serviço",
+   "healthOverview": "Visão geral de estado"
+  }
+ }
+}

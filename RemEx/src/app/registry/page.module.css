@@ -1,0 +1,254 @@
+﻿.container {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.section {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.error {
+  padding: 1rem;
+  background-color: #fee;
+  border: 1px solid #f88;
+  border-radius: 4px;
+  color: #c00;
+  margin: 1rem 0;
+}
+
+.hiveSelector {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hiveSelector label {
+  font-weight: bold;
+  margin-right: 0.25rem;
+}
+
+.hiveSelector select,
+.hiveSelector button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.hiveSelector button:hover:not(:disabled) {
+  background-color: #e3f2fd;
+  border-color: #2196f3;
+}
+
+.hiveSelector button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.hiveSelector button.danger {
+  background-color: #fee;
+  border-color: #f88;
+  color: #c00;
+}
+
+.hiveSelector button.danger:hover:not(:disabled) {
+  background-color: #fdd;
+}
+
+.pathDisplay {
+  padding: 1rem;
+  background-color: #e3f2fd;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.pathDisplay code {
+  font-family: monospace;
+  padding: 0.25rem 0.5rem;
+  background-color: #fff;
+  border-radius: 3px;
+  word-break: break-all;
+}
+
+.pathDisplay button {
+  padding: 0.5rem 1rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.pathDisplay button:hover {
+  background-color: #1976d2;
+}
+
+.searchBox {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.searchBox input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.searchBox button {
+  padding: 0.75rem 1.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.searchBox button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.searchResults {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.resultItem {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.resultItem strong {
+  display: block;
+  color: #2196f3;
+  margin-bottom: 0.25rem;
+  font-family: monospace;
+  word-break: break-all;
+}
+
+.resultItem p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+  word-break: break-all;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.keysPanel,
+.valuesPanel {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.keysPanel h3,
+.valuesPanel h3 {
+  margin: 0;
+  padding: 1rem;
+  background-color: #2196f3;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.list {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  max-height: 600px;
+}
+
+.listItem {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  user-select: none;
+  word-break: break-word;
+}
+
+.listItem:hover {
+  background-color: #e3f2fd;
+}
+
+.valueItem {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fafafa;
+}
+
+.valueName {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.25rem;
+  word-break: break-word;
+}
+
+.valueType {
+  font-size: 0.85rem;
+  color: #666;
+  font-family: monospace;
+  margin-bottom: 0.25rem;
+}
+
+.valueData {
+  font-size: 0.9rem;
+  color: #444;
+  word-break: break-all;
+  font-family: monospace;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .hiveSelector {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hiveSelector select,
+  .hiveSelector button {
+    width: 100%;
+  }
+}

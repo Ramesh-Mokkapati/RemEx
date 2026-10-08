@@ -1,0 +1,364 @@
+{
+ "enforcement": {
+  "captures": {
+   "source": "Foinse"
+  },
+  "alert": {
+   "toast": {
+    "title": "FolÃ¡ireamh innill",
+    "confidence": "MuinÃ­n"
+   },
+   "source": {
+    "engine": "inneall",
+    "manual": "lÃ¡mhÃºil"
+   }
+  }
+ },
+ "welcome": "FÃ¡ilte chuig Ã¡r suÃ­omh grÃ©asÃ¡in ilteangach!",
+ "hello": "Dia duit, {{name}}!",
+ "logout": "LogÃ¡il Amach",
+ "loginError": "Ainm ÃºsÃ¡ideora nÃ³ pasfhocal mÃ­cheart. Bain triail as arÃ­s le do thoil.",
+ "loading": "Ag lÃ³dÃ¡il",
+ "error": "EarrÃ¡id",
+ "userProfile": {
+  "role": "RÃ³l",
+  "user": "ÃšsÃ¡ideoir",
+  "createdAt": "Cruthaithe Ag",
+  "lastSignIn": "SÃ­niÃº Isteach Deireanach",
+  "currentPassword": "Pasfhocal Reatha",
+  "changePassword": "Athraigh Pasfhocal",
+  "newPassword": "Pasfhocal Nua",
+  "confirmPassword": "Deimhnigh Pasfhocal",
+  "confirm": "Deimhnigh",
+  "cancel": "Cealaigh",
+  "success": "UasdÃ¡taÃ­odh an pasfhocal go rathÃºil!",
+  "errors": {
+   "empty": "NÃ­ fÃ©idir rÃ©imsÃ­ pasfhocail a bheith folamh",
+   "mismatch": "NÃ­ mheaitseÃ¡lann na pasfhocail",
+   "length": "Caithfidh an pasfhocal 8 gcarachtar ar a laghad a bheith ann",
+   "failed": "Theip ar uasdÃ¡tÃº an phasfhocail. Bain triail as arÃ­s le do thoil.",
+   "minLength": "Caithfidh 8 gcarachtar ar a laghad a bheith ann",
+   "uppercase": "TeastaÃ­onn litir chinn mhÃ³ir amhÃ¡in ar a laghad",
+   "number": "TeastaÃ­onn uimhir amhÃ¡in ar a laghad",
+   "specialChar": "Cuir siombail speisialta leis",
+   "tooShort": "Rogheaá¹™r",
+   "weak": "Lag",
+   "moderate": "Measartha",
+   "strong": "LÃ¡idir"
+  }
+ },
+ "login": {
+  "welcome": "FÃ¡ilte",
+  "subtitle": "LogÃ¡il isteach chuig {{appName}} le do thoil",
+  "username": "Ainm ÃšsÃ¡ideora",
+  "password": "Pasfhocal",
+  "loginButton": "LogÃ¡il Isteach",
+  "sessionExpired": "TÃ¡ do sheisiÃºn imithe in Ã©ag. LogÃ¡il isteach arÃ­s le do thoil."
+ },
+ "maps": {
+  "maps": "LÃ©arscÃ¡ileanna",
+  "zones": "Criosanna",
+  "description": "Cur SÃ­os",
+  "coordinates": "ComhordanÃ¡idÃ­",
+  "zoomLevel": "LeibhÃ©al ZÃºmÃ¡la",
+  "customerId": "Aitheantas CustaimÃ©ara",
+  "locationId": "Aitheantas SuÃ­mh",
+  "lastUpdated": "UasdÃ¡taithe go Deireanach",
+  "editMap": "Cuir LÃ©arscÃ¡il in Eagar",
+  "addMap": "Cuir LÃ©arscÃ¡il Leis",
+  "deleteMap": "Scrios LÃ©arscÃ¡il",
+  "deleteMapConfirmation": "An bhfuil tÃº cinnte gur mhaith leat an lÃ©arscÃ¡il seo a scriosadh?",
+  "name": "Ainm",
+  "latitude": "Domhanleithead",
+  "longitude": "Domhanfhad",
+  "search": "Cuardaigh baile, cathair, cÃ³d poist...",
+  "associations": "Comhlachais"
+ },
+ "map": {
+  "map": "LÃ©arscÃ¡il",
+  "showMap": "TaispeÃ¡in LÃ©arscÃ¡il",
+  "satellite": "SatailÃ­t",
+  "showSatellite": "TaispeÃ¡in SatailÃ­t",
+  "search": "Cuardaigh baile, cathair, cÃ³d poist..."
+ },
+ "mapInfo": {
+  "error": {
+   "title": "NÃ­ fÃ©idir faisnÃ©is lÃ©arscÃ¡ile a lÃ³dÃ¡il",
+   "message": "Tharla earrÃ¡id agus sonraÃ­ na lÃ©arscÃ¡ile Ã¡ lÃ³dÃ¡il. Bain triail as arÃ­s le do thoil.",
+   "retryButton": "Bain triail as arÃ­s"
+  }
+ },
+ "search": {
+  "search": "Cuardaigh",
+  "showing": "Ã thaispeÃ¡int",
+  "of": "as",
+  "previous": "Roimhe",
+  "next": "Ar Aghaidh",
+  "noResults": "Gan torthaÃ­",
+  "clearSearch": "Glan cuardach",
+  "suggestionsUnavailable": "MoltaÃ­ nach bhfuil ar fÃ¡il. BrÃºigh Enter chun cuardach a dhÃ©anamh.",
+  "hint": "BrÃºigh Enter chun cuardach a dhÃ©anamh."
+ },
+ "common": {
+  "add": "Cuir Leis",
+  "create": "Cruthaigh",
+  "creating": "Ã chruthÃº...",
+  "edit": "Cuir in Eagar",
+  "delete": "Scrios",
+  "save": "SÃ¡bhÃ¡il",
+  "saving": "Ã shÃ¡bhÃ¡il...",
+  "cancel": "Cealaigh",
+  "below": "ThÃ­os",
+  "beside": "In Aice Le",
+  "refresh": "Athnuaigh",
+  "select": "Roghnaigh",
+  "selecting": "Ag roghnÃºâ€¦",
+  "deleting": "Ã scriosadhâ€¦",
+  "noRows": "Gan sraitheanna fÃ³s. CliceÃ¡il + Nua le ceann a chur leis.",
+  "noRowsFilter": "NÃ­ mheaitseÃ¡lann aon sraitheanna an scagaire.",
+  "rows": "sraitheanna",
+  "row": "sraith"
+ },
+ "zones": {
+  "key": "Eochair Criosanna",
+  "colour": "Dath",
+  "lock": "StÃ¡das Glais",
+  "camera": "SuÃ­omh Ceamara",
+  "description": "Cur SÃ­os",
+  "pcnProvider": "SolÃ¡thraÃ­ PCN",
+  "direction": "Treo",
+  "icesLocCode": "CÃ³d SuÃ­mh",
+  "offCode": "CÃ³d Ciona",
+  "permitZoneId": "Aitheantas Crios Ceada",
+  "schedName": "Ainm Sceideal",
+  "type": "CineÃ¡l Criosanna",
+  "editMapZone": "Cuir Crios LÃ©arscÃ¡ile in Eagar",
+  "addMapZone": "Cuir Crios LÃ©arscÃ¡ile Leis",
+  "addMapZoneError": "Tharla earrÃ¡id agus crios lÃ©arscÃ¡ile Ã¡ chur leis. Bain triail as arÃ­s le do thoil.",
+  "deleteMapZone": "Scrios Crios LÃ©arscÃ¡ile",
+  "deleteMapZoneConfirmation": "An bhfuil tÃº cinnte gur mhaith leat an crios lÃ©arscÃ¡ile seo a scriosadh?",
+  "name": "Ainm"
+ },
+ "zoneInfo": {
+  "error": {
+   "title": "NÃ­ fÃ©idir faisnÃ©is criosanna lÃ©arscÃ¡ile a lÃ³dÃ¡il",
+   "message": "Tharla earrÃ¡id agus sonraÃ­ an chriosanna lÃ©arscÃ¡ile Ã¡ lÃ³dÃ¡il. Bain triail as arÃ­s le do thoil.",
+   "retryButton": "Bain triail as arÃ­s"
+  }
+ },
+ "draw": {
+  "fullscreen": "LÃ¡nscÃ¡ileÃ¡n",
+  "exitFullscreen": "FÃ¡g LÃ¡nscÃ¡ileÃ¡n",
+  "drawPolygon": "Tarraing",
+  "editPolygon": "Cuir in Eagar",
+  "clear": "Glan",
+  "redraw": "Tarraing ArÃ­s"
+ },
+ "about": {
+  "about": "Maidir Le",
+  "version": "Leagan"
+ },
+ "schedules": {
+  "schedules": "Sceidil",
+  "name": "Ainm Sceideal",
+  "dayOfWeek": "LÃ¡ den Tseachtain",
+  "startTime": "Am Tosaigh",
+  "stopTime": "Am Deiridh",
+  "secondStartTime": "Dara hAm Tosaigh",
+  "secondStopTime": "Dara hAm Deiridh",
+  "editSchedule": "Cuir Sceideal in Eagar",
+  "addSchedule": "Cuir Sceideal Leis",
+  "deleteSchedule": "Scrios Sceideal",
+  "deleteScheduleConfirmation": "An bhfuil tÃº cinnte gur mhaith leat an sceideal seo a scriosadh?",
+  "addScheduleError": "Tharla earrÃ¡id agus sceideal Ã¡ chur leis. Bain triail as arÃ­s le do thoil.",
+  "editScheduleError": "Tharla earrÃ¡id agus sceideal Ã¡ chur in eagar. Bain triail as arÃ­s le do thoil.",
+  "schedule": "Sceideal",
+  "additionalSchedule": "Sceideal Breise"
+ },
+ "settings": {
+  "settings": "Socruithe",
+  "pagination": "LeathÃ¡nÃº",
+  "buttons": {
+   "primaryLocation": "SuÃ­omh prÃ­omhchnaipe",
+   "left": "ClÃ©",
+   "right": "Deas"
+  },
+  "undo": "Cealaigh",
+  "reset": "Athshocraigh",
+  "defaultMapLocation": "SuÃ­omh rÃ©amhshocraithe lÃ©arscÃ¡ile nua"
+ },
+ "logs": {
+  "title": "FÃ©achÃ³ir LogaÃ­",
+  "searchLabel": "Cuardaigh",
+  "searchPlaceholder": "Scag de rÃ©ir tÃ©acs ar bith",
+  "groupBy": "GrÃºpÃ¡il de rÃ©ir",
+  "group": {
+   "none": "Gan Ceann",
+   "message": "Teachtaireacht",
+   "context": "ComhthÃ©acs",
+   "level": "LeibhÃ©al",
+   "date": "DÃ¡ta"
+  },
+  "showDetails": "TaispeÃ¡in sonraÃ­",
+  "consoleParser": "ParsÃ¡laÃ­ consÃ³il",
+  "clearInput": "Glan ionchur",
+  "clear": "Glan",
+  "clearLevels": "Glan leibhÃ©il",
+  "showingRange": "Ã thaispeÃ¡int {{from}}-{{to}} as {{total}} iontrÃ¡il",
+  "items": "mÃ­r(eanna)",
+  "prev": "Roimhe",
+  "pageOf": "Leathanach {{page}} as {{total}}",
+  "next": "Ar Aghaidh",
+  "pasteHint": "Greamaigh do thÃ©acs logaÃ­ anseo, nÃ³ uaslÃ³dÃ¡il comhad ag baint ÃºsÃ¡ide as an roghnÃ³ir thuas.",
+  "chooseFile": "Roghnaigh do chomhad",
+  "noFileSelected": "Gan comhad roghnaithe",
+  "levels": {
+   "error": "earrÃ¡id",
+   "warn": "rabhadh",
+   "info": "eolas",
+   "debug": "dÃ­fhabhtÃº",
+   "verbose": "mionsonrach",
+   "silly": "silly"
+  }
+ },
+ "validation": {
+  "required": "ag teastÃ¡il",
+  "tooLong": "rÃ³fhada",
+  "tooShort": "rogheaá¹™r",
+  "mustBe": "caithfidh sÃ© a bheith",
+  "mustBeUnique": "caithfidh sÃ© a bheith uathÃºil",
+  "invalid": "neamhbhailÃ­",
+  "mustBeFuture": "caithfidh sÃ© a bheith sa todhchaÃ­"
+ },
+ "users": {
+  "users": "ÃšsÃ¡ideoirÃ­",
+  "username": "Ainm ÃšsÃ¡ideora",
+  "email": "RÃ­omhphost",
+  "role": "RÃ³l",
+  "editUser": "Cuir ÃšsÃ¡ideoir in Eagar",
+  "addUser": "Cuir ÃšsÃ¡ideoir Leis",
+  "deleteUser": "Scrios ÃšsÃ¡ideoir",
+  "deleteUserConfirmation": "An bhfuil tÃº cinnte gur mhaith leat an t-ÃºsÃ¡ideoir seo a scriosadh?",
+  "password": "Pasfhocal",
+  "expiryDate": "DÃ¡ta Ã‰aga"
+ },
+ "nav": {
+  "home": "Baile",
+  "configuration": "CumraÃ­ocht",
+  "operations": "OibrÃ­ochtaÃ­",
+  "enforcement": "ForfheidhmiÃº",
+  "alertsManagement": "BainistÃ­ocht FolÃ¡irimh",
+  "reports": "TuairiscÃ­",
+  "administration": "RiarachÃ¡n",
+  "dashboard": "Deais",
+  "workspace": "SpÃ¡s Oibre",
+  "signIn": "SÃ­nigh Isteach",
+  "signOut": "SÃ­nigh Amach",
+  "notSignedIn": "Gan sÃ­niÃº isteach",
+  "signedInAs": "SÃ­nithe isteach mar",
+  "openMyInfo": "Oscail Mo Chuid FaisnÃ©ise",
+  "myInfo": "Mo Chuid FaisnÃ©ise",
+  "alertExcludes": "Eisiamh FolÃ¡irimh",
+  "references": "TagairtÃ­",
+  "offenceCodes": "CÃ³id Chionta",
+  "trafficCodes": "CÃ³id TrÃ¡chta",
+  "exemptionCodes": "CÃ³id DÃ­olÃºine",
+  "autoDvlas": "DVLAanna UathoibrÃ­ocha",
+  "schedules": "Sceidil",
+  "vrms": "VRManna",
+  "exportVrms": "EaspÃ³rtÃ¡il VRManna",
+  "importVrms": "IompÃ³rtÃ¡il VRManna",
+  "nodes": "NÃ³id",
+  "remoteActions": "GnÃ­omhartha Cianda",
+  "attendedEnforcement": "Le freastal",
+  "mobileEnforcement": "Soghluaiste",
+  "discardReasons": "CÃºiseanna DiÃºltaithe",
+  "whitelist": "LiostaÃ­ BÃ¡na",
+  "auditLog": "LogaÃ­ IniÃºchta",
+  "appLogs": "LogaÃ­ FeidhmchlÃ¡ir",
+  "serviceLogs": "LogaÃ­ SeirbhÃ­se",
+  "alertStats": "FolÃ¡irimh",
+  "users": "ÃšsÃ¡ideoirÃ­",
+  "health": "SlÃ¡inte",
+  "vprManager": "Bainisteoir VPR",
+  "vrecManager": "Bainisteoir VREC",
+  "managers": "BainisteoirÃ­",
+  "permitCheckers": "SeiceÃ¡laithe CeadÃºnas",
+  "workflow": "Sreabhadh Oibre",
+  "vrecLocks": "Glais VREC",
+  "vrmTracking": "RianÃº VRM",
+  "services": "Seirbhísí"
+ },
+ "health": {
+  "title": "ForbhreathnÃº SlÃ¡inte",
+  "description": "Glaonn /probe/live agus /probe/ready ar gach micrisheirbhÃ­s.",
+  "refresh": "Athnuaigh",
+  "probing": "Ag seiceÃ¡ilâ€¦",
+  "restartAll": "Atosaigh Gach Ceann",
+  "restartingAll": "Ag atosÃº gach ceannâ€¦",
+  "service": "SeirbhÃ­s",
+  "code": "CÃ³d",
+  "port": "Calafort",
+  "live": "Beo",
+  "ready": "RÃ©idh",
+  "latency": "Latacht",
+  "actions": "GnÃ­omhartha",
+  "restart": "Atosaigh",
+  "restarting": "Ag atosÃºâ€¦",
+  "restarted": "Atosaithe âœ“",
+  "failed": "Theip âœ—"
+ },
+ "nodes": {
+  "title": "NÃ³id",
+  "loading": "Ag lÃ³dÃ¡il nÃ³idâ€¦",
+  "newNode": "+ NÃ³d Nua",
+  "search": "Cuardaigh nÃ³idâ€¦",
+  "noNodes": "Gan nÃ³id le fÃ¡il.",
+  "noMatch": "NÃ­l aon nÃ³id ag teacht le do chuardach.",
+  "checkingStatus": "Ag seiceÃ¡il stÃ¡dasâ€¦",
+  "remoteActions": "GnÃ­omhartha Cianda â†’",
+  "permanent": "Buan",
+  "temp": "Sealadach",
+  "version": "Leagan",
+  "alerts": "FolÃ¡irimh"
+ },
+ "remoteActions": {
+  "title": "GnÃ­omhartha Cianda",
+  "scheduledTasks": "Tascanna Sceidealta",
+  "envVariables": "Athróga Timpeallachta",
+  "backToNodes": "â† Ar ais go dtÃ­ NÃ³id",
+  "nodeIpPreassigned": "IP nÃ³id rÃ©amhshocraithe",
+  "systemInfo": "FaisnÃ©is CÃ³rais",
+  "installedApps": "FeidhmchlÃ¡ir SuiteÃ¡ilte",
+  "fileManager": "Bainisteoir Comhad",
+  "services": "SeirbhÃ­sÃ­",
+  "loading": "Ag lÃ³dÃ¡ilâ€¦",
+  "refresh": "Athnuaigh",
+  "noApps": "Gan feidhmchlÃ¡ir le fÃ¡il.",
+  "noMatch": "NÃ­l aon fheidhmchlÃ¡r ag teacht le do chuardach.",
+  "uninstall": "DÃ­shuiteÃ¡il",
+  "uninstalling": "Ã dhÃ­shuiteÃ¡ilâ€¦",
+  "confirmUninstall": "Deimhnigh DÃ­shuiteÃ¡il",
+  "cannotUndo": "NÃ­ fÃ©idir an gnÃ­omh seo a chealÃº."
+ },
+ "dashboard": {
+  "title": "RemEx",
+  "subtitle": "Ligeann Remote Explorer (RemEx) duit do fhreastalaithe cianda (bunaithe ar Windows) a bhainistiú ó áit amháin. Úsáid an ribín thuas chun nascleanúint a dhéanamh, nó roghnaigh rannóg thíos chun tosú.",
+  "comingSoon": "Ag teacht go luath",
+  "tabs": {
+   "operations": {
+    "label": "Oibríochtaí",
+    "description": "Déan monatóireacht agus bainistigh freastalaithe cianda — oibríochtaí comhad/fillteán, tascanna sceidealta, logaí seirbhíse agus faisnéis chórais."
+   },
+   "administration": {
+    "label": "Riarachán",
+    "description": "Déan monatóireacht ar shláinte na Seirbhíse Bainistíochta Cianfhreastalaí."
+   }
+  },
+  "services": {
+   "remoteActions": "Gníomhartha cianda",
+   "serviceLogs": "Logaí seirbhíse",
+   "healthOverview": "Forbhreathnú sláinte"
+  }
+ }
+}

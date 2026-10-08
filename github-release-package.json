@@ -1,0 +1,7 @@
+{
+  "name": "RMXNG_1.5",
+  "version": "1.5.0",
+  "description": "The jars and NextJs website required to deploy RMXNG version 1.5",
+  "private": true,
+  "files": ["GitHubRelease.zip"]
+}
